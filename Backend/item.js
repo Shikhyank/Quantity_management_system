@@ -2,6 +2,7 @@ const db=require('./mysql')
 var Sequelize=require('sequelize')
 
 
+//defining the model
 
 const Item=db.define('item',{
     id : {
